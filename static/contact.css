@@ -1,0 +1,82 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(2, 4, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(1, 8, 22);
+    text-align: left;
+    position: fixed;
+    top: 0;
+    padding-left: 55px;
+}
+
+.navbar a {
+    color: rgb(195, 207, 213);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: rgba(219, 250, 255, 0.889);
+}
+
+/* Highlight the "Contact" link in the navbar */
+#nav-contact {
+    color: rgb(43, 195, 255);
+}
+
+/* Container Styling for the Contact Page */
+.container {
+    background-color: rgb(1, 8, 22);
+    width: 500px;
+    text-align: center;
+    color: rgb(195, 207, 213);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px; /* To accommodate the fixed navbar */
+}
+
+/* Container Headings and Text */
+.container h1 {
+    margin-bottom: 20px;
+    color: rgba(219, 250, 255, 0.889);
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: rgb(195, 207, 213);
+}
+
+/* Contact List Styling */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.contact-list a {
+    color: rgba(219, 250, 255, 0.7);
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: rgba(219, 250, 255, 1);
+}

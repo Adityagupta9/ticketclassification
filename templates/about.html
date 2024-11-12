@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Support Ticket Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="/" id="nav-home">Home</a>
+        <a href="/about" id="nav-about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>About this App</h1>
+        <p>This is a Support Ticket Classification application that uses machine learning to classify customer support ticket inquiries into predefined categories.</p>
+        <p>The app processes the input text using a custom machine learning model and predicts the appropriate category for each inquiry. It is designed to streamline the categorization process for customer support teams.</p>
+        <h2>How it Works</h2>
+        <ul>
+            <li>User enters the support ticket inquiry.</li>
+            <li>The inquiry is processed using the model, which classifies it into one of the categories.</li>
+            <li>The predicted category is displayed to the user.</li>
+        </ul>
+    </div>
+    <div class="dropdown-container">
+        <label for="team-members">Project by:</label>
+        <select id="team-members">
+            <option value="Aditya Gupta">Aditya Gupta - aditya.gupta.ai@ghrce.raisoni.net</option>
+            <option value="Aditya Sangole">Aditya Sangole - aditya.sangole.ai@ghrce.rais.oni.net</option>
+            <option value="Anurag Kavatlawar">Anurag Kavatlawar - anurag.kavatlawar.ai@ghrce.raisoni.net</option>
+            <option value="Aryan Ambare">Aryan Ambare - aryan.ambare.ai@ghrce.raisoni.net</option>
+        </select>
+    </div>
+    
+</body>
+</html>
